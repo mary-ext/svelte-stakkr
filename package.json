@@ -1,8 +1,11 @@
 {
 	"name": "svelte-stakkr",
 	"description": "stack navigator for Svelte",
-	"license": "MIT",
 	"version": "0.1.0",
+	"license": "MIT",
+	"repository": {
+		"url": "https://codeberg.org/mary-ext/svelte-stakkr"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"prepack": "svelte-package --input lib --tsconfig ./tsconfig.app.json && publint",
